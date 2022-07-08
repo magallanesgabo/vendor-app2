@@ -15,9 +15,9 @@
     "ag-grid-community": "^23.2.0",
     "ag-grid-enterprise": "^23.2.0",
     "ag-grid-react": "^23.2.0",
-    "axios": "^0.19.2",
+    "axios": "^0.27.2",
     "formik": "^2.2.6",
-    "html5-qrcode-tecbound": "^2.2.2",
+    "html5-qrcode-tecbound": "^2.2.1",
     "jwt-decode": "^3.1.2",
     "qrcode": "^1.5.0",
     "react": "^18.1.0",
@@ -25,7 +25,7 @@
     "react-qr-reader": "^3.0.0-beta-1",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^5.0.1",
     "yup": "^0.32.8"
   },
   "scripts": {
