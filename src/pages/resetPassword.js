@@ -1,6 +1,6 @@
 import React from 'react'
 import { Grid, Paper, TextField, Button, Typography, Link } from '@material-ui/core'
-import { ThemeProvider } from '@material-ui/core/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import axios from 'axios';
 import * as Yup from 'yup';

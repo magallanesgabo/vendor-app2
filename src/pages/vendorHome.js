@@ -1,6 +1,6 @@
 import React from 'react';
-import { Typography, Paper, Button, Grid } from '@material-ui/core';
-import { ThemeProvider } from '@material-ui/core/styles';
+import { Typography, Paper, Button, Grid } from '@mui/material';
+import { ThemeProvider } from '@mui/material/styles';
 import { Link } from "react-router-dom";
 import Nav from '../components/Nav';
 import Stack from '@mui/material/Stack';

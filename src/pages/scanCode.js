@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Typography } from '@material-ui/core';
+import { Container, Typography } from '@mui/material';
 //import { useNavigate } from "react-router-dom";
 import { Return } from '../components/BackButton/backButton';
 import Nav from '../components/Nav';
