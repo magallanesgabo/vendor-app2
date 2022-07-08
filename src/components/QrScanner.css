@@ -1,0 +1,10 @@
+.qrscanner {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.qr-shaded-region{
+    margin: 2px;
+    font-weight: bolder;
+}
