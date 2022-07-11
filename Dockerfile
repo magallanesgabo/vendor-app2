@@ -6,7 +6,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install the node packages before copying the files
-RUN npm install
+RUN npm install @mui/material @emotion/react @emotion/styled --legacy-peer-deps
 
 
 # install react-scripts if needed
