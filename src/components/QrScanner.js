@@ -1,6 +1,6 @@
 import React from 'react';
 import './QrScanner.css';
-import { Container } from '@mui/material';
+import { Container } from '@material-ui/core';
 import Nav from '../components/Nav';
 import Html5QrcodePlugin from './Qr/Html5QrcodePlugin.jsx'
 import ResultContainerPlugin from './Qr/ResultContainerPlugin.jsx'

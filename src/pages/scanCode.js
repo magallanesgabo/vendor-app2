@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, Typography } from '@mui/material';
-//import { useNavigate } from "react-router-dom";
+import { Container, Grid, Paper, Typography, TextField, Button } from '@material-ui/core';
+import { useNavigate } from "react-router-dom";
 import { Return } from '../components/BackButton/backButton';
 import Nav from '../components/Nav';
 import QrScanner from '../components/QrScanner';

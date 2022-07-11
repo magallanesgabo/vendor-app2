@@ -1,21 +1,22 @@
 import React from 'react';
-import { Typography } from '@mui/material';
-import { ThemeProvider } from '@mui/material/styles';
-//import { useNavigate } from "react-router-dom";
+import { Box, Typography, Button } from '@material-ui/core';
+import { ThemeProvider } from '@material-ui/core/styles';
+import { useNavigate } from "react-router-dom";
 import { Return } from '../components/BackButton/backButton';
-//import theme from '../theme';
+import theme from '../theme';
 import Table from '../components/TableReport';
+import { borderBottom } from '@mui/system';
 import Nav from '../components/Nav';
 
 function VendorReport() {
 
-   //const navigate = useNavigate();
+   const navigate = useNavigate();
    const styleTitle = { padding: 0, height: '73vh', width: 300, margin: "0 auto", boxShadow: 'none' }
    const header = { padding: 20, textAlign: 'center', fontSize: '1.2em', fontWeight: 'bolder', color:'#373737'}
-   /*const initialValues = {
+   const initialValues = {
       email: '',
       password: ''
-   }*/
+   }
    
     return (
       <ThemeProvider>

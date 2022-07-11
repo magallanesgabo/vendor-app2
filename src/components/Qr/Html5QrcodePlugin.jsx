@@ -1,4 +1,4 @@
-import { Html5QrcodeScanner } from "html5-qrcode-tecbound";
+import { Html5QrcodeScanner } from "html5-qrcode";
 import React from 'react';
 
 const qrcodeRegionId = "html5qr-code-full-region";

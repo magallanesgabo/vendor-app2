@@ -5,7 +5,7 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
-//import Paper from '@mui/material/Paper';
+import Paper from '@mui/material/Paper';
 
 function createData(name, calories) {
   return { name, calories};
@@ -17,7 +17,7 @@ const rows = [
   createData('id:8', 0),
 ];
 
-//const paddings = { padding: '8px'}
+const paddings = { padding: '8px'}
 
 export default function AcccessibleTable() {
   return (

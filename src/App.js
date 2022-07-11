@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-//import Nav from './components/Nav';
+import Nav from './components/Nav';
 import Login from './pages/login';
 import ResetPassword from './pages/resetPassword';
 import VendorReport from './pages/vendorReport';
